@@ -8,4 +8,16 @@ export class Tweet {
     this.user = user;
     this.tweet = tweet;
   }
+
+  getUsername() {
+    return this.user.getUsername();
+  }
+
+  getAvatar() {
+    return this.user.getAvatar();
+  }
+
+  getTweet() {
+    return this.tweet;
+  }
 }
