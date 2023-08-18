@@ -6,7 +6,7 @@ import { CreateTweetDTO } from './dtos/tweet.dto';
 
 import { UnauthorizedError } from './errors/UnauthorizedError';
 import fixTweets from './utils/fixedTweets';
-import { BadRequestError } from './errors/badRequestError';
+import { BadRequestError } from './errors/BadRequestError';
 
 @Injectable()
 export class AppService {
